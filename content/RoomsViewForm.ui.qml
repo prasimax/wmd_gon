@@ -35,7 +35,7 @@ Pane {
         Label {
             id: heading
 
-            text: qsTr("Welcome")
+            text: qsTr("Hi Paragon")
             font: Constants.desktopTitleFont
             color: Constants.primaryTextColor
             elide: Text.ElideRight
@@ -104,7 +104,7 @@ Pane {
             when: Constants.isBigDesktopLayout || Constants.isSmallDesktopLayout
             PropertyChanges {
                 target: heading
-                text: qsTr("Welcome")
+                text: qsTr("Hi Paragon")
                 font: Constants.desktopTitleFont
             }
             PropertyChanges {

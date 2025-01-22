@@ -1,8 +1,15 @@
-// Copyright (C) 2023 The Qt Company Ltd.
-// SPDX-License-Identifier: LicenseRef-Qt-Commercial OR BSD-3-Clause
+import QtQuick 2.15
+import QtQuick.Controls 2.15
 
-import QtQuick
-import content
+ApplicationWindow {
+    visible: true
+    width: 400
+    height: 300
 
-App {
+    Row {
+        spacing: 10
+        Rectangle { width: 50; height: 50; color: "green" }
+        Rectangle { width: 50; height: 50; color: "yellow" }
+    }
+
 }

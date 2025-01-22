@@ -11,7 +11,7 @@ Window {
     height: Constants.height
 
     minimumHeight: 272
-    minimumWidth: Qt.PrimaryOrientation === Qt.LandscapeOrientation ? 480 : 360
+    minimumWidth: Qt.PrimaryOrientation === Qt.LandscapeOrientation ? 1280 : 800
 
     visible: true
     title: "Thermostat"
